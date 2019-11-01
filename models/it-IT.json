@@ -1,0 +1,24 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "wifi home",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent"
+          },
+          {
+            "name": "AMAZON.YesIntent"
+          },
+          {
+            "name": "AMAZON.NoIntent"
+          },
+          {
+            "name": "AMAZON.HelpIntent"
+          },
+          {
+            "name": "AMAZON.StopIntent"
+          }
+        ]
+      }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "color-changer": {
+      "skill_id": "",
+      "was_cloned": false,
+      "merge": {}
+    },
+    "default": {
+      "skill_id": "amzn1.ask.skill.186a2f1f-6910-42e8-8667-ae2d88d6afd0",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "444699097e1153b69ee0f5c4869f9328"
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:822276630470:function:ask-custom-wifiSkill-default",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-wifiSkill-default",
+            "handler": "index.handler",
+            "revisionId": "cbe5c988-e3b2-4173-95c2-a1bffae88174",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
